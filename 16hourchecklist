@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html style="background-color: #C3FFF9">
+<head>
+<meta name="viewpoint"
+content="width=device-width, initial-scale=1" />
+
+<center>
+    <title> 16-Hour Checklist </title>
+</head>
+<body>
+   <h1> 16-Hour Checklist </h1>
+   <h3> A simple format for scheduling an entire day. <h3>
+   <h4> (Click the time-table to edit) <h4>
+</center>
+<table style="background-color: solid black; width: 90%; margin: 100px auto; border: 2px solid black"> 
+     <colgroup>
+          <col style="background-color: #FDF1E2">
+          <col style="background-color: #FDF1E2">
+          <col style="background-color: #FDF1E2">
+          <col style="background-color: #FDF1E2">
+       
+     </colgroup>
+     
+   <thead>
+     <tr>
+        <th> Task </th>  
+        <th> Time </th>
+        <th> Completed </th>
+        <th> Task Notes </th>
+        
+     </tr>
+   
+   </thead>   
+ 
+ <tbody>
+   
+   <tr>
+      <td>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      <p contenteditable> Edit Task </p>
+      </td>
+        <td>
+         <p contenteditable> 8:00 </p>
+         <p contenteditable> 9:00 </p>
+         <p contenteditable> 10:00 </p>
+         <p contenteditable> 11:00 </p>
+         <p contenteditable> 12:00 </p>
+         <p contenteditable> 1:00 </p>
+         <p contenteditable> 2:00 </p>
+         <p contenteditable> 3:00 </p>
+         <p contenteditable> 4:00 </p>
+         <p contenteditable> 5:00 </p>
+         <p contenteditable> 6:00 </p>
+         <p contenteditable> 7:00 </p>
+         <p contenteditable> 8:00 </p>
+         <p contenteditable> 9:00 </p>
+         <p contenteditable> 10:00 </p>
+         <p contenteditable> 11:00 </p>
+      </td>
+        <td>
+        <p id="sample" </p>
+        <button onclick="changeContent();"> Done </button>
+        
+        <script type="text/javascript">
+           function changeContent() {
+                document.getElementById("sample").innerHTML = "Finished!";
+                document.getElementById("sample").style.color = "#0CA053";
+                document.getElementById("sample").style.fontStyle = "italic";
+                }
+
+
+        </script>
+        
+                    
+                    <p id="two" </p>
+        <button onclick="two();"> Done </button>
+        
+        <script type="text/javascript">
+           function two() {
+                document.getElementById("two").innerHTML = "Finished!";
+                document.getElementById("two").style.color = "#0CA053";
+                document.getElementById("two").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="three" </p>
+        <button onclick="three();"> Done </button>
+        
+        <script type="text/javascript">
+           function three() {
+                document.getElementById("three").innerHTML = "Finished!";
+                document.getElementById("three").style.color = "#0CA053";
+                document.getElementById("three").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="four" </p>
+        <button onclick="four();"> Done </button>
+        
+        <script type="text/javascript">
+           function four() {
+                document.getElementById("four").innerHTML = "Finished!";
+                document.getElementById("four").style.color = "#0CA053";
+                document.getElementById("four").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="five" </p>
+        <button onclick="five();"> Done </button>
+        
+        <script type="text/javascript">
+           function five() {
+                document.getElementById("five").innerHTML = "Finished!";
+                document.getElementById("five").style.color = "#0CA053";
+                document.getElementById("five").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="six" </p>
+        <button onclick="six();"> Done </button>
+        
+        <script type="text/javascript">
+           function six() {
+                document.getElementById("six").innerHTML = "Finished!";
+                document.getElementById("six").style.color = "#0CA053";
+                document.getElementById("six").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="seven" </p>
+        <button onclick="seven();"> Done </button>
+        
+        <script type="text/javascript">
+           function seven() {
+                document.getElementById("seven").innerHTML = "Finished!";
+                document.getElementById("seven").style.color = "#0CA053";
+                document.getElementById("seven").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="eight" </p>
+        <button onclick="eight();"> Done </button>
+        
+        <script type="text/javascript">
+           function eight() {
+                document.getElementById("eight").innerHTML = "Finished!";
+                document.getElementById("eight").style.color = "#0CA053";
+                document.getElementById("eight").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="nine" </p>
+        <button onclick="nine();"> Done </button>
+        
+        <script type="text/javascript">
+           function nine() {
+                document.getElementById("nine").innerHTML = "Finished!";
+                document.getElementById("nine").style.color = "#0CA053";
+                document.getElementById("nine").style.fontStyle = "italic";
+                }
+
+
+        </script>
+            
+                    <p id="ten" </p>
+        <button onclick="ten();"> Done </button>
+        
+        <script type="text/javascript">
+           function ten() {
+                document.getElementById("ten").innerHTML = "Finished!";
+                document.getElementById("ten").style.color = "#0CA053";
+                document.getElementById("ten").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="eleven" </p>
+        <button onclick="eleven();"> Done </button>
+        
+        <script type="text/javascript">
+           function eleven() {
+                document.getElementById("eleven").innerHTML = "Finished!";
+                document.getElementById("eleven").style.color = "#0CA053";
+                document.getElementById("eleven").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="twelve" </p>
+        <button onclick="twelve();"> Done </button>
+        
+        <script type="text/javascript">
+           function twelve() {
+                document.getElementById("twelve").innerHTML = "Finished!";
+                document.getElementById("twelve").style.color = "#0CA053";
+                document.getElementById("twelve").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                    
+                    <p id="thirteen" </p>
+        <button onclick="thirteen();"> Done </button>
+        
+        <script type="text/javascript">
+           function thirteen() {
+                document.getElementById("thirteen").innerHTML = "Finished!";
+                document.getElementById("thirteen").style.color = "#0CA053";
+                document.getElementById("thirteen").style.fontStyle = "italic";
+                }
+
+
+        </script>
+            
+                  
+                    <p id="fourteen" </p>
+        <button onclick="fourteen();"> Done </button>
+        
+        <script type="text/javascript">
+           function fourteen() {
+                document.getElementById("fourteen").innerHTML = "Finished!";
+                document.getElementById("fourteen").style.color = "#0CA053";
+                document.getElementById("fourteen").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                  
+                    <p id="fifteen" </p>
+        <button onclick="fifteen();"> Done </button>
+        
+        <script type="text/javascript">
+           function fifteen() {
+                document.getElementById("fifteen").innerHTML = "Finished!";
+                document.getElementById("fifteen").style.color = "#0CA053";
+                document.getElementById("fifteen").style.fontStyle = "italic";
+                }
+
+
+        </script>
+                 
+                    <p id="sixteen" </p>
+        <button onclick="sixteen();"> Done </button>
+        
+        <script type="text/javascript">
+           function sixteen() {
+                document.getElementById("sixteen").innerHTML = "Finished!";
+                document.getElementById("sixteen").style.color = "#0CA053";
+                document.getElementById("sixteen").style.fontStyle = "italic";
+                }
+
+
+        </script>
+ 
+
+      
+      </td>
+      
+      <td>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+        <p contenteditable> (type notes here) </p>
+      
+         
+  </tr>
+  </td>
+    
+   </tbody>
+  
+</table> 
+</body>
+</html>
